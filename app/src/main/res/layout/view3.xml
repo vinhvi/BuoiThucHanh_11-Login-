@@ -9,7 +9,7 @@
         android:id="@+id/textView6"
         android:layout_width="361dp"
         android:layout_height="55dp"
-        android:layout_marginTop="36dp"
+        android:layout_marginTop="92dp"
         android:drawableRight="@drawable/group"
         android:text="CRATE NEW ACCOUT"
         android:textAlignment="center"
@@ -88,7 +88,7 @@
         android:id="@+id/textView7"
         android:layout_width="208dp"
         android:layout_height="27dp"
-        android:layout_marginTop="32dp"
+        android:layout_marginTop="24dp"
         android:clickable="true"
         android:drawableLeft="@drawable/grommet_icons_google"
         android:text=" REGISTER WITH GOOGLE"
@@ -102,10 +102,12 @@
         android:id="@+id/imageView8"
         android:layout_width="435dp"
         android:layout_height="97dp"
-        android:layout_marginTop="24dp"
+        android:layout_marginTop="116dp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView7"
+        app:layout_constraintVertical_bias="1.0"
         app:srcCompat="@drawable/circle" />
 
     <TextView
